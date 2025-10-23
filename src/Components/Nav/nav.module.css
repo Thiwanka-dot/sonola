@@ -112,7 +112,7 @@ nav li .Img:hover{
     top: -2rem;
     left: 10rem;
     transform: translateX(-50%);
-    background-color: var(--nav-bg-color);
+    background-color: var(--nav-sideMenu-color);
     border: 1px solid rgba(0, 0, 0, 0.12);
     padding: 10px;
     border-radius: 8px;
@@ -136,6 +136,6 @@ nav li .Img:hover{
 
 .settingsMenu button:hover,
 .settingsMenu p:hover {
-    background-color: rgba(148, 148, 148, 0.05);
+    background-color: var(--nav-sideMenu-color-hover);
 }
 
