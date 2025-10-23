@@ -1,16 +1,72 @@
-# React + Vite
+# React + Electron Desktop App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern cross-platform desktop application built using React and Electron, featuring a clean sidebar navigation, theme toggle (Light/Dark), and a settings menu.
 
-Currently, two official plugins are available:
+This project demonstrates seamless integration between a React front-end and an Electron desktop environment, providing a responsive and visually appealing user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Built using React + Electron
+- Light / Dark theme toggle with image swapping
+- Interactive settings dropdown
+- Sidebar navigation with active state indicator
+- Profile, Help, and Settings section
+- Organized modular file structure with reusable components
+- Context-based global theme management
 
-## React Compiler
+## Tech Stack
+| Category |	Technologies |
+|---|---|
+| Frontend | React.js, CSS Modules |
+| Desktop Runtime | Electron |
+| Routing	| React Router DOM |
+| State Management | React Context API |
+| Build Tool | Vite |
+| Language | JavaScript (ES6+) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Folder Structure
+```
+project-root/
+│
+├── public/
+│
+├── src/
+│   ├── assets/                # Images and icons
+│   ├── Components/
+│   │   ├── Nav/               # Navbar component
+│   │   ├── Home/              # Homepage UI
+│   ├── context/
+│   │   └── ThemeContext.jsx   # Theme state provider
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── electron/
+│   │   └── main.js            # Electron entry file
+│
+├── package.json
+└── README.md
+```
 
-## Expanding the ESLint configuration
+## Installation & Setup
+Follow these steps to run the app locally 👇
+```
+# 1. Clone this repository
+git clone https://github.com/<Thiwanka-dot/sonola.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Navigate into the project folder
+cd sonola
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the React development server
+npm run dev
+
+# 5. In another terminal, start Electron
+npm run electron
+```
+
+>💡 Make sure both the React dev server and Electron process are running together for full functionality.
+
+## Author
+
+Thiwanka Lakmal Dissanayake
+>📍 Software Engineering Undergraduate | MERN Stack Enthusiast
