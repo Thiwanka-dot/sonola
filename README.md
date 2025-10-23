@@ -33,9 +33,11 @@ project-root/
 │   ├── assets/                # Images and icons
 │   ├── Components/
 │   │   ├── Nav/               # Navbar component
-│   │   ├── Home/              # Homepage UI
 │   ├── context/
 │   │   └── ThemeContext.jsx   # Theme state provider
+|   ├── Pages/
+│   │   ├── Home/              # Homepage UI
+│   │   ├── Welcome/           # Welcomepage UI
 │   ├── App.jsx
 │   ├── main.jsx
 │   ├── electron/
