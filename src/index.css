@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face{
+    font-family: "Aeonik";
+    src: url('./assets/Fonts/fonnts.com-Aeonik-Bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root[data-theme='light'] {
+    --welcome-bg-color: #FAFAFAE5;
+    --welInfo-bg-color:#fafafae6;
+    --text-color: #000;
+    --subText-color: #000000b3;
+    --part2-bg-color: #ffffffcc;
+    --nav-bg-color:#FAFAFAE5;
+    --nav-text-color: #3c4043;
+    --nav-li-color: #eeeeee;
+    --dashboard-bg-color: #fff;
+    --search-bg-color: #f2f2f7;
+    --search-icon-color: #3c3c4399;
+}
+
+:root[data-theme='dark'] {
+    --welcome-bg-color: #000000b3;
+    --welInfo-bg-color: #00000066;
+    --text-color: #fff;
+    --subText-color: #ffffffb3;
+    --part2-bg-color: #34343429;
+    --nav-bg-color: #000;
+    --nav-text-color: #fff;
+    --nav-li-color: #eeeeee1f;
+    --dashboard-bg-color: #1f1f1f;
+    --search-bg-color: #ffffff1a;
+    --search-icon-color: #ffffff;
+}
+
+nav{
+    background-color: var(--nav-bg-color);
+}
+
+nav li span,
+nav .activePage li span{
+    color: var(--nav-text-color);
+}
+
+ .header{
+    background-color: var(--dashboard-bg-color);
+}
