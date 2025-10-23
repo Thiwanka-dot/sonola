@@ -73,7 +73,7 @@ nav li .Img:hover{
 
 .activePage span{
     font-weight: 600;
-    color: black;
+    color: var(--text-color);
 }
 
 .accountDetails{
@@ -97,7 +97,6 @@ nav li .Img:hover{
 .accountCon img{
     width: 20px;
     height: 20px;
-
 }
 
 .settingWrapper {
