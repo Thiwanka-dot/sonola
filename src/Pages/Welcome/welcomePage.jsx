@@ -35,7 +35,9 @@ export default function WelcomePage(){
                                 <li className={style.list5}></li>
                                 <li className={style.list6}></li>
                             </ul>
-                            <button><Link to='/home'>Next</Link></button>
+                            <Link to='/home'>
+                                <button>Next</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
